@@ -1,3 +1,7 @@
+card-w-h-1{
+    width: 23rem ;
+    height: auto;
+}
 
  .reviews-counter {
     font-size: 13px;
@@ -91,7 +95,9 @@
 #team {
     background: #eee !important;
 }
-
+#color-nav{
+    background: #d23f3f !important;
+}
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: #000000;
@@ -146,7 +152,6 @@ section .section-title {
     -webkit-transform-style: preserve-3d;
     -ms-transition: 1s;
     -moz-transition: 1s;
-    -moz-transform: perspective(1000px);
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transition: 1s;
@@ -156,8 +161,6 @@ section .section-title {
 
 .frontside {
     position: relative;
-    -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
     z-index: 2;
     margin-bottom: 30px;
 }
@@ -172,7 +175,7 @@ section .section-title {
     -o-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
-    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(159, 0, 0);
     -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
     box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 }
