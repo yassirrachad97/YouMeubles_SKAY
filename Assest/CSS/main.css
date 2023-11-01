@@ -215,3 +215,14 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+.text-center{
+    margin-top: 20px;
+    padding-top: 70px;
+    padding-bottom:70px;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
