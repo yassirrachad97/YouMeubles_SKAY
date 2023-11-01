@@ -3,6 +3,95 @@ card-w-h-1{
     height: auto;
 }
 
+ .reviews-counter {
+    font-size: 13px;
+} 
+.reviews-counter span {
+	vertical-align: -2px;
+} 
+.rate {
+    float: left;
+    padding: 0 10px 0 0;
+
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float: right;
+    width: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 21px;
+    color:#ccc;
+	margin-bottom: 0;
+	line-height: 21px;
+}
+.rate:not(:checked) > label:before {
+    content: '\2605';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.product-count {
+	margin-top: 15px; 
+}
+.product-count .qtyminus,
+.product-count .qtyplus {
+	width: 34px;
+    height: 34px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 36px;
+    color: #070707;
+    cursor: pointer;
+}
+.product-count .qtyminus {
+	border-radius: 3px 0 0 3px; 
+}
+.product-count .qtyplus {
+	border-radius: 0 3px 3px 0; 
+}
+.product-count .qty {
+	width: 60px;
+	text-align: center;
+}
+.round-black-btn {
+	border-radius: 4px;
+    background: #212529;
+    color: #fff;
+    padding: 7px 45px;
+    display: inline-block;
+    margin-top: 20px;
+    border: solid 2px #212529; 
+    transition: all 0.5s ease-in-out 0s;
+}
+.description{
+    font-size: medium;
+   line-height: 40px;
+}
+#acheter{
+    background: #E89F71;
+}
+#navbarcolor{
+    background-color: #FCF8F3 !important;
+    }
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
     background: #eee !important;
 }
@@ -129,3 +218,14 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+.text-center{
+    margin-top: 20px;
+    padding-top: 70px;
+    padding-bottom:70px;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
