@@ -1,6 +1,5 @@
-/* #titre span{
-    font-family: 'Allerta Stencil',sans-serif ;
-} */
+
+
 "/* Remove the up/down buttons inside the number input on Firefox */
 input[type="number"] {
     -moz-appearance:textfield;

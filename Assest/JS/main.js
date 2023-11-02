@@ -68,3 +68,16 @@ qtyInput.addEventListener('blur', () => {
     updateInputValue('1');
   }
 });
+
+
+
+let a = ["bilal","zaim","yasir"];
+let btna = Array.from(document.querySelectorAll(".btna"));
+let p = document.getElementById("p")
+console.log(btna)
+
+btna.forEach((item , index)=>{
+    item.addEventListener("click",()=>{
+        p.textContent = a[index];
+    })
+})
