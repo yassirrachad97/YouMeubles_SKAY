@@ -1,5 +1,5 @@
 
-
+.link-grey { color: #aaa; } .link-grey:hover { color: #00913b; }
 
 /* Remove the up/down buttons inside the number input on Firefox */
 input[type="number"] {
@@ -118,6 +118,7 @@ input[type=number]::-webkit-inner-spin-button {
 #acheter1{
     background: #E89F71;
     color: #f3f2f2;
+    
 }
 #navbarcolor{
     background-color: #FCF8F3 !important;
