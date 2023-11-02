@@ -4,7 +4,7 @@ card-w-h-1{
 }
 
 
-"/* Remove the up/down buttons inside the number input on Firefox */
+/* Remove the up/down buttons inside the number input on Firefox */
 input[type="number"] {
     -moz-appearance:textfield;
   text-align:center;
@@ -112,6 +112,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 #acheter1{
     background: #E89F71;
+    color: #f3f2f2;
 }
 #navbarcolor{
     background-color: #FCF8F3 !important;
@@ -250,8 +251,8 @@ section .section-title {
     padding-bottom:70px;
 }
 
-.btn {
+/* .btn {
     margin-top: 30px;
     margin-left: 80px;
-}
+} */
 
