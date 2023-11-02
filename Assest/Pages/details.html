@@ -10,17 +10,48 @@
 </head>
 <body>
     <header>
-
+     <!-- ================navbar================================== -->
+     <nav id="navbarcolor" class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid ">
+        <img class="nav-item p-1 col-md-2  " src="/Assest/Images/logo 1.png" alt="Logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mx-auto  my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <b><a class="nav-link active " aria-current="page" href="/index.html">Home</a></b>
+            </li>
+            <li class="nav-item">
+              <b><a class="nav-link active  color-black-1  mx-5" aria-current="page" href="#">About Us </a></b>
+            </li>
+            <li class="nav-item">
+              <b><a class="nav-link active  color-black-1" aria-current="page" href="#">Our Team</a></b>
+            </li>
+          </ul>
+          <spam class="col-md-1  collapse   d-flex justify-content-between " >
+            <img src="/Assest/Images/Heart.png" class="nav-item p-1  " alt="Logo " width="24px" height="24px">
+            <img src="/Assest/Images/recher.png" class="nav-item p-1" alt="Logo" width="24px" height="24px">
+            <img src="/Assest/Images/shopping-cart 1.png" class="nav-item p-1  " alt="Logo" width="24px" height="24px">
+          </spam>
+        </div>
+        </div> 
+    </nav>
     </header>
+    <div lc-helper="background" class="container-fluid py-5 mb-4 d-flex justify-content-center" style=" height: 575px;  background-color: #FCF8F3;
+    background-position: center;
+background-size:cover;
+background-repeat:no-repeat">
     <main>
-<div class="row w-100">
+<div class="row w-100 ">
 <div id="titre" class="col fs-1 m-5 text-center">
 <span class="text" style="color: #8A6A3F;">DETAILS</span>
 <span>PRODUIT</span>
 </div>
 </div>
 <div class="row w-80 m-4 ">
-  <div class="col lg-5 sm-12">
+  <div class="col-lg-5 col-sm-12">
   <div class="row  image">
     <img src="../Images/chaise1.jpg" alt="" class="mainImg">
 </div>
@@ -39,11 +70,11 @@
     </div>
 </div>
 </div>
-    <div class="col lg-7 sm-12 " >
+    <div class="col-lg-7 col-sm-12 " >
         <div class="produit-dtl ">
             <div class="row w-100 ms-4 ">
-            <div class="col-8 fs-1">shaises YouMeubles SKAY</div>
-            <div class="col-4 fs-1 ">169.00$</div>
+            <div class="col-lg-8 col-sm-12 fs-1">shaises YouMeubles SKAY</div>
+            <div class="col-lg-4 col-sm-12 fs-1 ">169.00$</div>
         </div>
         </div>
         <div class="reviews-counter ">
@@ -63,64 +94,76 @@
     <div class="row  w-75 m-5 ">
         <p >Type de produit : meubles de repas avec accoudoirs, couleur : beige alpilles, composition : assise : mousse avec revêtement tissu greenwich.structure : acier peinture époxy noir.piètement : acier finition poudre noir., matériau : tissu.</p>
     </div>
-    <div class="row justify-content-evenly w-80 mx-5">
-        <div class="col sm-12 d-flex justify-content-between ">
-            <div class="product-count">
-                <div class="row w-45">
-                    <div class="qtyminus">-</div>
-                    <input type="text" name="quantity" value="1" class="qty">
-                    <div class="qtyplus">+</div>
-                </div>
-        </div>
+    <div class="row  mx-5 justify-content-evenly">
+        <div class="col-lg-4 col-sm-12 w-50  ">
+          <div class="visually-hidden" data-item="accessible-text" aria-live="assertive"></div>
+<fieldset>
+  <legend class="visually-hidden">Select quantity [Product Catalog Number]</legend>
+  
+  <!-- Decrease button -->
+  <button data-item="decrease-qty"><span aria-hidden="true">-</span><span class="visually-hidden">Decrease quantity</span></button>
+  <!-- Quantity Input -->
+  <label class="visually-hidden" for="qty-input">Quantity</label>
+  <!-- Number Input that looks like Text Input -->
+  <input id="qty-input" class="input" type="number" pattern="[0-9]*" inputmode="numeric" novalidate="novalidate" autocorrect="off" spellcheck="false" autocapitalize="none" max="9999" min="1" value="1" />
+  <!-- Increase button -->
+  <button data-item="increase-qty"><span aria-hidden="true">+</span><span class="visually-hidden">Increase quantity</span></button>
+</fieldset>
       </div>
-        <div id="acheter" class="col-2 sm-12 btn "> acheter</div>
+      <div class="row w-50">
+        <div id="acheter1" class="col-lg-4 col-sm-4 btn w-50"> acheter</div>
       </div>
+    </div>
 </div>
 </div>
 <hr>
-<div class="row">
-<nav class="nav nav-pills flex-column flex-sm-row">
-    <a class="col-3 flex-sm-fill text-sm-center nav-link"  href="#"><Details>Type de produit : meubles de repas avec accoudoirs, couleur : beige alpilles, composition : assise : mousse avec revêtement tissu greenwich.structure : acier peinture époxy noir.piètement : acier finition poudre noir., matériau : tissu. Confort et esthétique. Laissez-vous séduire par cette belle chaise en tissu, de couleur beige. La combinaison des matériaux et du coloris de ce meuble en fait une pièce design et robuste. En effet, vous pouvez jouir d'un réel confort grâce à sa structure en acier
-        ...</Details></a>
-    <a class="col-3 flex-sm-fill text-sm-center nav-link" href="#"><Details>dfghjklkjhgfdrtyuioplokiuygtfdfgh</Details></a>
-    <a class="col-3 flex-sm-fill text-sm-center nav-link" href="#"><Details></Details></a>
-    <a class="col-3 flex-sm-fill text-sm-center nav-link" href="#" ><Details></Details></a>
-  </nav>
+<div class="row w-85">
+  <div class="col-lg-12 dropdown">
+    <div class="row justify-content-between mx-4 mt-5">
+    <button class="col-lg-3 btna my-5">a</button>
+    <button class="col-lg-3 btna  my-5">b</button>
+    <button class="col-lg-3 btna  my-5">c</button>
+    <p id="p">Type de produit : meubles de repas avec accoudoirs, couleur : beige alpilles, composition : assise : mousse avec revêtement tissu greenwich.structure : acier peinture époxy noir.piètement : acier finition poudre noir., matériau : tissu. Confort et esthétique. Laissez-vous séduire par cette belle chaise en tissu, de couleur beige. La combinaison des matériaux et du coloris de ce meuble en fait une pièce design et robuste. En effet, vous pouvez jouir d'un réel confort grâce à sa structure en acier
+      ...</p>
+  </div>
+  </div>
+
 </div>
   <div class="row w-100 justify-content-evenly mt-5">
-  <div class="card" style="width: 18rem; border: 0px solid">
-    <img src="../Images/canapé.jpg" class="card-img" alt="..." style="height: 70%;">
+  <div class="card" style="width:18rem ; border: 0px solid">
+    <img src="../Images/canapé.jpg" class="card-img" alt="..." >
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <div class="row justify-content-between">
-      <a href="#" id="acheter"  class="col-5 btn ">Detail</a>
-      <a href="#" id="acheter"  class="col-5 btn ">Acheter</a>
+      <a href="#" id="acheter1"  class="col-5 btn ">Detail</a>
+      <a href="#" id="acheter1"  class="col-5 btn ">Acheter</a>
     </div>
     </div>
   </div>
-  <div class="card" style="width: 18rem;border: 0px solid">
-    <img src="../Images/bireau.jpg" class="card-img" alt="..." style="height: 70%; width: 100%;">
+  <div class="card" style="width:18rem ;border: 0px solid">
+    <img src="../Images/chaise1.jpg" class="card-img" alt="..." >
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <div class="row justify-content-between">
-        <a href="#" id="acheter" class="col-5 btn ">Detail</a>
-        <a href="#" id="acheter" class="col-5 btn ">Acheter</a>
+        <a href="#" id="acheter1" class="col-5 btn ">Detail</a>
+        <a href="#" id="acheter1" class="col-5 btn ">Acheter</a>
       </div>
     </div>
   </div>
-  <div class="card" style="width: 18rem;border: 0px solid;">
-    <img src="../Images/table1.jpg" class="card-img" alt="..." style="height: 70%;">
+  <div class="card" style="width:18rem ;border: 0px solid">
+    <img src="../Images/chaise1.jpg" class="card-img" alt="..." >
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <div class="row justify-content-between">
-        <a href="#" id="acheter"  class="col-5 btn ">Detail</a>
-        <a href="#" id="acheter"  class="col-5 btn ">Acheter</a>
+        <a href="#" id="acheter1" class="col-5 btn ">Detail</a>
+        <a href="#" id="acheter1" class="col-5 btn ">Acheter</a>
       </div>
     </div>
   </div>
+ 
 </div>
 
     </main>
