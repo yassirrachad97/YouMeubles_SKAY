@@ -247,14 +247,23 @@ section .section-title {
 
 
 /* css de team page */
-.text-center{
-    margin-top: 20px;
-    padding-top: 70px;
-    padding-bottom:70px;
-}
 
 .btn {
     margin-top: 30px;
     margin-left: 80px;
 }
 
+.intro {
+    margin-top: 20px;
+    padding-top: 70px;
+    padding-bottom:70px;  
+}
+
+#cardINFO {
+    margin-top: 10px;
+    padding-top: 60px;
+    padding-bottom:70px;
+}
+
+
+/* fin de css de team */
