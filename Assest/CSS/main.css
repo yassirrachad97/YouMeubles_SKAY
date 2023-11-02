@@ -1,5 +1,34 @@
 
 
+
+/* Remove the up/down buttons inside the number input on Firefox */
+input[type="number"] {
+    -moz-appearance:textfield;
+  text-align:center;
+}
+
+input[type="number"]:focus, 
+input[type="number"]:hover {
+    appearance: textfield;
+  
+}
+
+/* Remove the up/down buttons inside the number input for Safari */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Make number input look like a regular text input */
+.input {
+  border:1px solid gray;
+  border-radius:3px;
+  padding:4px 4px;
+  text-align:center;
+  width:calc(100px - 2em);
+
+}
  .reviews-counter {
     font-size: 13px;
 } 
@@ -23,7 +52,7 @@
     white-space: nowrap;
     cursor: pointer;
     font-size: 21px;
-    color:#ccc;
+    color:#f3f2f2;
 	margin-bottom: 0;
 	line-height: 21px;
 }
@@ -45,9 +74,9 @@
     color: #c59b08;
 }
 
-.product-count {
+/* .product-count {
 	margin-top: 15px; 
-}
+} */
 .product-count .qtyminus,
 .product-count .qtyplus {
 	width: 34px;
@@ -85,6 +114,9 @@
 }
 #acheter{
     background: #E89F71 ;
+}
+#acheter1{
+    background: #E89F71;
 }
 #navbarcolor{
     background-color: #FCF8F3 !important;
