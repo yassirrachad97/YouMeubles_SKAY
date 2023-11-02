@@ -1,10 +1,7 @@
-card-w-h-1{
-    width: 23rem ;
-    height: auto;
-}
 
+.link-grey { color: #aaa; } .link-grey:hover { color: #00913b; }
 
-"/* Remove the up/down buttons inside the number input on Firefox */
+/* Remove the up/down buttons inside the number input on Firefox */
 input[type="number"] {
     -moz-appearance:textfield;
   text-align:center;
@@ -38,6 +35,7 @@ input[type=number]::-webkit-inner-spin-button {
 .reviews-counter span {
 	vertical-align: -2px;
 } 
+
 .rate {
     float: left;
     padding: 0 10px 0 0;
@@ -99,6 +97,7 @@ input[type=number]::-webkit-inner-spin-button {
 	width: 60px;
 	text-align: center;
 }
+
 .round-black-btn {
 	border-radius: 4px;
     background: #212529;
@@ -109,21 +108,24 @@ input[type=number]::-webkit-inner-spin-button {
     border: solid 2px #212529; 
     transition: all 0.5s ease-in-out 0s;
 }
-
+.description{
+    font-size: medium;
+   line-height: 40px;
+}
+#acheter{
+    background: #E89F71 ;
+}
 #acheter1{
     background: #E89F71;
+    color: #f3f2f2;
+    
 }
 #navbarcolor{
     background-color: #FCF8F3 !important;
+   
     }
 
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-#team {
-    background: #eee !important;
-}
-#color-nav{
-    background: #d23f3f !important;
-}
+
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: #000000;
@@ -242,7 +244,7 @@ section .section-title {
 .frontside .card .card-body img {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
+
 }
 .text-center{
     margin-top: 20px;
@@ -250,8 +252,8 @@ section .section-title {
     padding-bottom:70px;
 }
 
-.btn {
+/* .btn {
     margin-top: 30px;
     margin-left: 80px;
-}
+} */
 
